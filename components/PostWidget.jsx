@@ -15,8 +15,6 @@ const PostWidget = ({ categories, slug }) => {
         .then((result) => setRelatedPosts(result))
     }
   }, [slug]);
-
-  console.log(relatedPosts);
   
 
   return (
